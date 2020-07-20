@@ -1,7 +1,7 @@
 # Face Detection Web Application using RestrServe R package
 
-- Face detection using the opencv and RestrServe r packages. It captures an image from the video stream and detect faces captured from the video stream.
-- Application done to get familiar with RestrServe package and have a fully functional application.
+- Face detection using the opencv and RestrServe r packages. It captures an image from the video stream and detects faces.
+- Application done to get familiar with RestrServe package and have a fully functional application. From my knowledge, this is the first one available.
 - The front-end was developed using:
     - [materializecss](https://materializecss.com/)
     - CSS
@@ -16,8 +16,8 @@
 
 
 
-# MY NOTES
-## CORS
+## Notes
+### CORS
 - To allow CORS in a POST request (I guess the same apply for GET and others)
     - must include app$add_route as follow:
         - app$add_route("/predict", method = "OPTIONS", FUN = function(request, response) {
@@ -30,7 +30,7 @@
     - Also included content_type = "application/json" - it is the response type I am sending back
 
 
-## Request body
+### Request body
 - From the front end web application, I send via fetch a json file
     - Example:
         - var data = {x: 2}
@@ -51,5 +51,5 @@
     - To access the value of the list
         - jsonlite::fromJSON(rawToChar(req$body))[["x"]]
 
-## Annoying things
+### Annoying things
 - When I got an error in the end point function, I got in the chrome console an error of CORS which is confusing and annoying! Why? Who knows.
