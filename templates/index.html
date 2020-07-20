@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Image Classification with R</title>
+
+  <!--materialize -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <link rel="stylesheet" href="../static/css/style.css" />
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo right">LOGO</a>
+        <a href="#" data-target="mobile-responsive" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul id="nav-mobile" class="left hide-on-med-and-down">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-responsive">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#">About</a></li>
+
+    </ul>
+  </header>
+
+  <!-- video, canvas and img -->
+
+  <section class="media-container center-align">
+    <div class="video">
+      <video class="responsive-video"></video>
+    </div>
+
+    <div>
+      <canvas class="canvas"></canvas>
+    </div>
+
+    <div class="snap"></div>
+
+    <div class="result"></div>
+  </section>
+
+  <!-- buttons section -->
+
+  <section class="buttons-container">
+    <div class="row s12 buttons center-align">
+      <a class="row s4 btn waves-effect waves-light center snap">Snap</a>
+      <a class="row s4 btn waves-effect waves-light center retake">Retake</a>
+      <a class="row s4 btn waves-effect waves-light center download">Download</a>
+    </div>
+  </section>
+
+  <footer class="page-footer center align">
+    my footer
+  </footer>
+
+  <script src="../static/js/main.js"></script>
+</body>
+
+</html>

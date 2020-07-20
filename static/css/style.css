@@ -1,0 +1,43 @@
+.body {
+  margin: 0;
+  padding: 0;
+}
+
+.brand-logo {
+  color: #fff;
+}
+
+.navbar {
+  background-color: #333;
+}
+
+.buttons {
+  /* background-color: red; */
+}
+
+.buttons a {
+  margin: 5px auto;
+  background-color: salmon;
+}
+
+.buttons a:hover {
+  background-color: rgb(250, 186, 178);
+}
+
+.btn {
+  width: 10rem;
+}
+
+.page-footer {
+  background-color: #333;
+  padding: 22px 0;
+  color: #fff;
+}
+
+.canvas {
+  display: none;
+}
+
+.media-container {
+  margin-top: 10px;
+}
