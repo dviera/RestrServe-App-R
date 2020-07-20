@@ -1,7 +1,7 @@
 # Face Detection Web Application using RestrServe R package
 
-- Face detection using the opencv and RestrServe r packages. It captures an image from the video stream and detects faces.
-- Application done to get familiar with RestrServe package and have a fully functional application. From my knowledge, this is the first one available.
+- Face detection using the opencv and RestrServe R packages. It captures an image from the video stream and detects faces.
+- Goal was to get familiar with RestrServe package and have a fully functional application. From my knowledge, this is the first one available.
 - The front-end was developed using:
     - [materializecss](https://materializecss.com/)
     - CSS
