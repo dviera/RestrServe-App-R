@@ -1,6 +1,6 @@
-.body {
-  margin: 0;
-  padding: 0;
+body {
+  margin: 0px;
+  padding: 20px;
 }
 
 .brand-logo {
@@ -11,9 +11,6 @@
   background-color: #333;
 }
 
-.buttons {
-  /* background-color: red; */
-}
 
 .buttons a {
   margin: 5px auto;
@@ -25,7 +22,11 @@
 }
 
 .btn {
-  width: 10rem;
+  /* width: 10rem; */
+  width: 23em;
+  max-width: 100%;
+  display: block;
+
 }
 
 .page-footer {
@@ -40,4 +41,12 @@
 
 .media-container {
   margin-top: 10px;
+}
+
+
+.bullet li {
+  list-style-type: square !important;
+  list-style-position: initial !important;
+  margin-left: 25px;
+
 }

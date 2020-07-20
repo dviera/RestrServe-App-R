@@ -31,39 +31,46 @@
     <ul class="sidenav" id="mobile-responsive">
       <li><a href="index.html">Home</a></li>
       <li><a href="about.html">About</a></li>
+
     </ul>
   </header>
 
-  <!-- video, canvas and img -->
+  <h4 class="light">Face Detection using RestrServe R package</h4>
 
-  <section class="media-container center-align">
-    <div class="video">
-      <video class="responsive-video"></video>
-    </div>
+  <p class="caption">Face detection using the opencv and RestrServe R packages. It captures an image from the video
+    stream and detects faces.</p>
+  <p>Goal was to get familiar with RestrServe package and have a fully functional application.</p>
+  <p>From my knowledge, this is the first a fully functional application using this package that includes a front-end.
+  </p>
 
-    <div>
-      <canvas class="canvas"></canvas>
-    </div>
+  <h5>Front-End</h5>
+  <p class="caption">The front-end was developed using:</p>
+  <ul class="bullet">
+    <li><a href="https://materializecss.com/" style="outline: none; color:skyblue;">materializecss</a></li>
+    <li>CSS</li>
+    <li>Javascript</li>
+    <li>JQuery</li>
+  </ul>
 
-    <div class="snap"></div>
+  <h5> Back-end </h5>
+  <p class="caption">The back-end was developed using the <a href="https://restrserve.org/"
+      style="outline: none; color:skyblue;">RestrServe
+    </a> R package.</p>
 
-    <div class="result"></div>
-  </section>
+  <h5>Launch the application</h5>
+  <ul class="bullet">
+    <li>Open a new rsession and run the server.R function.</li>
+    <li>Go to the templates directory and launch the index.html - I use the Live Server extension in Visual Studio Code
+      .</li>
 
-  <!-- buttons section -->
+  </ul>
 
-  <section class="buttons-container">
-    <div class="row s12 buttons center-align">
-      <a class="row s4 btn waves-effect waves-light center snap">Snap</a>
-      <a class="row s4 btn waves-effect waves-light center retake">Retake</a>
-      <a class="row s4 btn waves-effect waves-light center download">Download</a>
-    </div>
-  </section>
 
   <footer class="page-footer center align">
     <a href="https://twitter.com/lluta" style="color:#fff; outline: none;">Twitter &nbsp</a>&#8226<a
       href="https://github.com/dviera/RestrServe-App-R" style="color:#fff; outline: none;">&nbsp Github</a>
   </footer>
+
 
   <script src="../static/js/main.js"></script>
 </body>

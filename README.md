@@ -10,8 +10,8 @@
 - The back-end was developed using the [RestrServe](https://restrserve.org/) R package
 
 ## Launch the application
-- Open a new rsession and run the server.R function
-- Go to the templates directory and launch the index.html - I use the Live Server extension in Visual Studio Code 
+- Open a new rsession and run the server.R function.
+- Go to the templates directory and launch the index.html - I use the Live Server extension in Visual Studio Code .
 
 
 
@@ -33,7 +33,7 @@
 ### Request body
 - From the front end web application, I send via fetch a json file
     - Example:
-        - var data = {x: 2}
+        - var data = {x: 2} (javascript)
         - then I transformed to json:
             - JSON.stringify(data) which goes in the "body" of the fetch function :: body: JSON.stringify(data)
             - And set the header of the fetch:
