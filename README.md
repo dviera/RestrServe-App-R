@@ -13,7 +13,7 @@
 - Open a new rsession and run the server.R function.
 - Go to the templates directory and launch the index.html - I use the Live Server extension in Visual Studio Code .
 
-
+![](restrserve.mp4)
 
 
 ## Notes

@@ -115,10 +115,13 @@ function takePhoto() {
     }
 }
 
+
+
 // PLACE PREDICTION PICTURE
 
 function result(base64_response) {
     const img_result = document.createElement("img");
+    img_result.setAttribute("class", "responsive-img");
     img_result.setAttribute("src", "data:image/jpg;base64," + base64_response)
     picResult.appendChild(img_result)
 
