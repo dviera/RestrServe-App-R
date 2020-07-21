@@ -13,9 +13,9 @@
 - Open a new rsession and run the server.R function.
 - Go to the templates directory and launch the index.html - I use the Live Server extension in Visual Studio Code .
 
-<video width="320" height="240" controls>
+[<video width="320" height="240" controls>
   <source src="restrserve.mp4" type="video/mp4">
-</video>
+</video>]
 
 
 ## Notes
